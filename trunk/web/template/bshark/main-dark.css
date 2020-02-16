@@ -1,6 +1,6 @@
 @font-face {
     font-family: Texta-book;
-    src: url("/template/bshark/2C5677_2_0.ttf");
+    src: url("./template/bshark/2C5677_2_0.ttf");
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -156,7 +156,7 @@ blockquote.testcase {
     box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.2);
     transition: all 0.5s;
     padding: 10px 3px;
-    filter: Invert();
+    filter: Invert() hue-rotate(180deg);
 }
 
 .card:hover {
